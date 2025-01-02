@@ -1,0 +1,131 @@
+### Environment Files ###
+.env*
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+### Node.js ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+.pnp.*
+
+# Caches
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Build outputs
+dist/
+build/
+out/
+.next
+.nuxt
+.vuepress/dist
+.docusaurus
+.serverless/
+.webpack/
+.svelte-kit
+
+### Python ###
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Testing and coverage
+.coverage
+coverage/
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.hypothesis/
+cover/
+*.lcov
+.nyc_output
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+*.icloud
+
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### VSCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+.ionide
+*.vsix
+
+### Misc ###
+.lock-wscript
+*.tsbuildinfo
+.yarn-integrity
+.tern-port
+.vscode-test
