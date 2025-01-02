@@ -50,6 +50,18 @@
 4. 환경변수 설정  
    cp .env.example .env  
    .env 파일에 OPENAI_API_KEY 추가  
+5. Assistants API 설정
+    System instructions : 
+    ** role
+    jsonl파일을 읽어들여서 코사인 유사도를 통해 질문에 대해 가장 알맞은 해당 QA셋을 찾고, 그 답변과 사용자 질문을 통해 사용자에게 가장 도움이 될만한 답변을 한국어로 해줘 
+
+    ** output
+    답변의 말미에 추가로 궁금한 사항 등의 말을 쓰지마. 한 질문에 한 답변만 하면 돼.  설명을 단계별로 \n 으로 나누어 설명해줘. 【4:12†source】 와 같은 어디서 찾았는지에 대한 소스정보를 적지마
+    
+    Model : gpt-4o-mini
+    
+    File search에 jsonl 파일 추가
+
 5. 서버 실행  
    uvicorn app:app --host=0.0.0.0 --port=8080  
 
