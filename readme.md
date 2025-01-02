@@ -8,6 +8,8 @@
 
 - **서비스 URL**: https://d1234abcd.cloudfront.net
 - **API 문서**: https://ssafy-2024-backend-pj.fly.dev/docs 
+- **GIT**: https://github.com/wasdl/data-pj
+
 
 ---
 
@@ -84,8 +86,3 @@
    - 질문 목록 확인 및 상세 내용 조회
    - 답변 완료 상태 확인 가능
    - 완료 답변 db 저장 및 Q/A pair 활용
-
-## 🔒 보안 및 제한사항
-- CORS 정책 적용
-- API 요청 제한 적용
-- 환경변수를 통한 보안키 관리
