@@ -6,7 +6,7 @@
 
 ## 배포 링크
 
-- **서비스 URL**: https://d1234abcd.cloudfront.net
+- **서비스 URL**: https://main.dvczjnkyd1hlm.amplifyapp.com/
 - **API 문서**: https://ssafy-2024-backend-pj.fly.dev/docs 
 - **GIT**: https://github.com/wasdl/data-pj
 
