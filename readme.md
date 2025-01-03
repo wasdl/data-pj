@@ -31,7 +31,7 @@
 
 ### **프론트엔드**
 1. frontend 디렉토리로 이동  
-   cd frontend  
+   cd src/frontend  
 2. 의존성 설치  
    npm install  
 3. 개발 서버 실행  
@@ -41,7 +41,7 @@
 
 ### **백엔드**
 1. backend 디렉토리로 이동  
-   cd backend  
+   cd src/backend  
 2. 가상환경 생성 및 활성화  
    python -m venv venv  
    source venv/bin/activate (Windows: venv\Scripts\activate)  
