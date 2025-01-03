@@ -4,6 +4,16 @@
 
 ---
 
+
+## 팀원
+
+ - 백민우
+ - 최수환
+ - 한원석
+
+
+---
+
 ## 배포 링크
 
 - **서비스 URL**: https://main.dvczjnkyd1hlm.amplifyapp.com/
@@ -41,7 +51,7 @@
 
 ### **백엔드**
 1. backend 디렉토리로 이동  
-   cd src/backend  
+   cd backend  
 2. 가상환경 생성 및 활성화  
    python -m venv venv  
    source venv/bin/activate (Windows: venv\Scripts\activate)  
